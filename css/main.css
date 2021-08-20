@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+:root {
+  --clr-primary-100: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+
+  --clr-neutral-100: hsl(240, 78%, 98%);
+  --clr-neutral-110: hsl(234, 14%, 74%);
+  --clr-neutral-120: hsl(233, 13%, 49%);
+  --clr-neutral-130: hsl(232, 13%, 33%);
+
+  --fs-size-xs: 13px;
+  --fs-size-sm: 15px;
+  --fs-size-md: 22px;
+  --fs-size-lg: 30px;
+  --fs-size-xl: 64px;
+
+  --fw-weight-bold: 700;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  font-size: var(--fs-size-sm);
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+
+:focus-visible {
+  outline: 2px dashed red;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  white-space: nowrap;
+  overflow: hidden;
+  position: absolute;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
